@@ -1,0 +1,294 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vw;
+}
+
+header {
+    background-color: #08194f;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 2vw;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+header nav ul li a:hover{
+    color: #0556c9;
+}
+
+.logo{
+    margin-left: 4vw;
+}
+
+@media screen and (max-width: 800px) {
+    .accueil-nav{
+        display: none;
+    }
+
+    .services-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#banner {
+    background-image: url('./assets/paul-hanaoka-D-qq7W751vs-unsplash-min.png');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 400px 0;
+}
+
+.bg-button{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 30%;
+    padding: 90px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bg-button p{
+    color: #03224c;
+    font-size: 20px;
+}
+
+.bg-button h2{
+    color: #03224c;
+    
+}
+
+h1{
+    font-size: 50px;
+    padding-bottom: 5%;
+    color: #03224c;
+}
+
+h2{
+    padding-bottom: 5%;
+    color: #03224c;
+}
+
+#reserveBtn{
+    background-color: #6d071a;
+    border: 1px solid #6d071a;
+    border-radius: 6px;
+    font-size: 20px;
+    color: bisque;
+    padding: 1vw;
+    margin-top: 5%;
+}
+
+#reserveBtn:hover{
+    color: red;
+}
+
+#services {
+    padding: 50px;
+    text-align: center;
+    background-color: #ccc;
+    padding-top: 100px;
+    color: #03224c;
+}
+
+.services-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.services-section h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.service-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 20px;
+    background-color: #03224c;
+    max-width: 500px;
+    padding-top: 0;
+}
+
+.service-item h3 {
+    margin: 20px 0;
+    color: #fff;
+}
+
+.photo1 {
+    background-image: url('./assets/obi-pixel8propix-aZKJEvydrNM-unsplash.png');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 85px 10px;
+    line-height: 1.6;
+}
+
+.photo2 {
+    background-image: url('./assets/voitures-d-occasion-sont-exposees-a-la-vente-dans-une-min.png');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 110px 10px;
+    line-height: 1.6;
+}
+
+.photo3 {
+    background-image: url('./assets/Chargement-voitures-transports-rabouin-min.png');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 125px 10px;
+    line-height: 1.6;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #6d071a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.contact-section {
+    background-color: #03224c;
+    padding: 5vw 1vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact-item p {
+    margin: 0;
+    color: #fff;
+}
+
+.contact-item p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-item p a:hover{
+    color: #0556c9;
+}
+
+
+footer {
+    background-color: #6d071a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: auto;
+    width: auto;
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img {
+    padding: 20px;
+}
+
+.navlinks{
+    display: flex;    
+}
+
+.navlinks li{
+    list-style-type: none;  
+}
+
+.navlinks li a{
+    text-decoration: none;
+    padding: 0 3vw; 
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue
+}
+
+.navlinks li a:hover{
+    color: brown;
+} */
