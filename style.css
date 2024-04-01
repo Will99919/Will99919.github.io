@@ -54,6 +54,11 @@ header nav ul li a:hover{
         flex-direction: column;
         align-items: center;
     }
+
+    .nav-btn{
+        
+        flex-direction: column;
+        }
 }
 
 #banner {
